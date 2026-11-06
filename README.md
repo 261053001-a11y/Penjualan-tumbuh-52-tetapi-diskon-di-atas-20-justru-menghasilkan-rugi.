@@ -7,7 +7,7 @@ Semester Ganjil 2026/2027 · Dosen: Muryan Awaludin, S.Kom., M.Kom.
 |---|---|
 | **Nama** | Hudzaifah Aini |
 | **NIM** | 261053001 |
-| **Live Dashboard** | https://NAMA-APP.streamlit.app _(ganti dengan URL aktif)_ |
+| **Live Dashboard** | http://localhost:8501/#penjualan-tumbuh-52-tetapi-diskon-di-atas-20-justru-menghasilkan-rugi |
 | **Dataset Kaggle** | https://www.kaggle.com/datasets/vivek468/superstore-dataset-final |
 
 ---
