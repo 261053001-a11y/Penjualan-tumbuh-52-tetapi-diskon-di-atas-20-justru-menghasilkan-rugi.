@@ -13,8 +13,8 @@ import streamlit as st
 import analysis as an
 
 # ------------------------------------------------------------------ identitas
-NAMA = "Hudzaifah Aini"      
-NPM = "261053001"             
+NAMA = "Hudzaifah Aini"
+NIM = "261053001"
 KAGGLE_URL = "https://www.kaggle.com/datasets/vivek468/superstore-dataset-final"
 
 # ------------------------------------------------------------------ palet warna
@@ -34,6 +34,8 @@ st.markdown(f"""
 html, body, .stApp, .stMarkdown p, .stMarkdown li, h1, h2, h3, h4, label,
 input, button, textarea, [data-testid="stCaptionContainer"] {{ font-family: {FONT}; }}
 .block-container {{ padding-top: 2rem; padding-bottom: 3rem; max-width: 1280px; }}
+.author {{ color: {INK}; font-size: .95rem; margin: 0 0 1.1rem; padding: .45rem .8rem;
+          border-left: 3px solid {PROFIT}; background: #E8EBE4; display: inline-block; }}
 .context {{ color: {MUTED}; font-size: .95rem; font-weight: 500; margin: 0 0 .35rem; }}
 .headline {{ color: {INK}; font-size: clamp(1.6rem, 3.1vw, 2.5rem); font-weight: 800;
             line-height: 1.15; letter-spacing: -.02em; max-width: 34ch; margin: 0 0 .6rem; }}
@@ -155,6 +157,8 @@ ins = an.build_insights(dff)
 
 # ------------------------------------------------------------------ hero & KPI
 st.markdown(
+    f"<div class='author'>Disusun oleh <b>{NAMA}</b> &nbsp;|&nbsp; NIM <b>{NIM}</b>"
+    f" &nbsp;|&nbsp; UTS Visualisasi Data, Unsurya</div>"
     f"<p class='context'>Dashboard penjualan Superstore, "
     f"{pd.Timestamp(start):%d/%m/%Y} sampai {pd.Timestamp(end):%d/%m/%Y}</p>"
     f"<h1 class='headline'>{ins['headline']}</h1>"
@@ -332,5 +336,5 @@ with st.expander(f"Lihat data transaksi terfilter ({an.fmt_int(len(dff))} baris)
                        file_name="superstore_terfilter.csv", mime="text/csv")
 
 st.markdown(f"<div class='footer'>Sumber data: <a href='{KAGGLE_URL}'>Superstore Dataset "
-            f"(Kaggle)</a>. Dibuat oleh {NAMA} ({NPM}) untuk UTS Visualisasi Data, "
+            f"(Kaggle)</a>. Dibuat oleh {NAMA} (NIM {NIM}) untuk UTS Visualisasi Data, "
             f"Universitas Dirgantara Marsekal Suryadarma, 2026.</div>", unsafe_allow_html=True)
