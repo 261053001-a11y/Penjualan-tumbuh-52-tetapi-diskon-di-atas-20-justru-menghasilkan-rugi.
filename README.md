@@ -7,7 +7,7 @@ Semester Ganjil 2026/2027 · Dosen: Muryan Awaludin, S.Kom., M.Kom.
 |---|---|
 | **Nama** | _Hudzaifah Aini_ |
 | **NPM** | _261053001_ |
-| **Live Dashboard** | https://NAMA-APP.streamlit.app _(ganti dengan URL aktif)_ |
+| **Live Dashboard** | http://localhost:8501/_ |
 | **Dataset Kaggle** | https://www.kaggle.com/datasets/vivek468/superstore-dataset-final |
 
 ---
