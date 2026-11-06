@@ -5,9 +5,9 @@ Semester Ganjil 2026/2027 · Dosen: Muryan Awaludin, S.Kom., M.Kom.
 
 | | |
 |---|---|
-| **Nama** | _Hudzaifah Aini_ |
-| **NPM** | _261053001_ |
-| **Live Dashboard** | http://localhost:8501/_ |
+| **Nama** | Hudzaifah Aini |
+| **NIM** | 261053001 |
+| **Live Dashboard** | https://NAMA-APP.streamlit.app _(ganti dengan URL aktif)_ |
 | **Dataset Kaggle** | https://www.kaggle.com/datasets/vivek468/superstore-dataset-final |
 
 ---
@@ -40,7 +40,7 @@ Pertanyaan utama yang dijawab dashboard: **dari mana laba perusahaan datang, dan
 
 ## 3. Wawasan Utama (Key Insights)
 
-1. **Penjualan tumbuh 51%, tetapi margin hanya 12,5%.** Penjualan naik dari US$ 484 ribu (2014)
+1. **Penjualan tumbuh 52%, tetapi margin hanya 12,5%.** Penjualan naik dari US$ 484 ribu (2014)
    menjadi US$ 733 ribu (2017), dengan total US$ 2,30 juta dan laba US$ 286 ribu dari 5.009 pesanan
    dan 793 pelanggan. Penjualan sempat turun tipis pada 2015 sebelum melonjak pada 2016–2017.
 2. **Diskon di atas 20% adalah sumber kebocoran laba terbesar.** Transaksi tanpa diskon bermargin
